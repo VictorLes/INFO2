@@ -17,7 +17,7 @@ public class BlockBreakable extends Block implements Deletable, Activable {
         }
         else {
             lifepoints--;
-            this.color = lifepoints + 2; // pour éviter de retourner au gris
+            this.color = lifepoints + 2; // pour éviter de retourner au gris //La couleur ne doit pas forcément être lié au points de vie
         }
     }
 
