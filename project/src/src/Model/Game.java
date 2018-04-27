@@ -19,9 +19,9 @@ public class Game implements DeletableObserver {
 	private ArrayList<GameObject> objects = new ArrayList<GameObject>();
 
     private Window window;
-    private static int size = 50;
+    private static int size = 100;
     // private int bombTimer = 3000;
-    private int numberOfBreakableBlocks = 100;
+    private int numberOfBreakableBlocks = 1;
     // ATTENTION : numberOfBreakableBlocks < (size-2)^2 - 1 [= size^2 - 4size + 3] !!!
 
     public void menu() {

@@ -48,6 +48,7 @@ public class Window {
     	else if (a == "W") {
     		dim += (int)dimension.getWidth();
     	}
+    	dim = (int) (dim*0.95);		// permet de légèrement réduire la taille de la fenêtre (barre windows ou quoi dans le bas)
     	return dim;
     }
 }
